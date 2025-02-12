@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Processor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Excel File Processor</h1>
+        
+        <div class="upload-section">
+            <input type="file" id="fileInput" accept=".xlsx, .xls" />
+            <button id="processButton">Process File</button>
+        </div>
+
+        <div id="preview" class="preview-section">
+            <!-- Preview will be shown here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
